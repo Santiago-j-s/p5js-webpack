@@ -18,13 +18,8 @@ module.exports = {
       {
         test: /\.p5js$/,
         exclude: /node_modules/,
-        loader: path_obj.resolve('./loaders/p5js-loader.js')
+        loader: path_obj.resolve('./loaders/p5js-loader.Es js')
       },
-      {
-        test: /\.json$/,
-        exclude: /node_modules/,
-        loader: path_obj.resolve('./loaders/custom-loader.js')
-      }
   ]
   },
 
