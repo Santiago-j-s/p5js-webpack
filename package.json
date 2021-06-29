@@ -2,7 +2,9 @@
   "name": "git",
   "version": "1.0.0",
   "description": "",
-  "extension": ["js"],
+  "extension": [
+    "js"
+  ],
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "webpack": "^5.41.1",
     "webpack-cli": "^4.7.2"
   }
 }
