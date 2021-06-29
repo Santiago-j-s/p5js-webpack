@@ -5,6 +5,7 @@
   "extension": [
     "js"
   ],
+  "type": "module",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +16,8 @@
   "dependencies": {
     "webpack": "^5.41.1",
     "webpack-cli": "^4.7.2"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^3.11.2"
   }
 }
